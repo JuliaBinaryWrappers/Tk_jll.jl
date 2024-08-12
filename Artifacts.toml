@@ -1,143 +1,143 @@
 [[Tk]]
 arch = "aarch64"
-git-tree-sha1 = "68548785871236f939314cb382aa9ac4fb9b30a1"
+git-tree-sha1 = "4412b5f3f735f4adfef5a93e278991baeca79153"
 os = "macos"
 
     [[Tk.download]]
-    sha256 = "9c143d31e2d4fabf3f578b551924cd3b65a3b5e295b6938932592b8730f4ba8c"
+    sha256 = "72dfef41df7a2e4cc3b9f267a291404ed1083046f5843f2c15863f42796799b5"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.aarch64-apple-darwin.tar.gz"
 [[Tk]]
 arch = "aarch64"
-git-tree-sha1 = "816c3ff73b3900eafeb955ec2cbe373771dad2a2"
+git-tree-sha1 = "21f8dbcfb2b0349d352cf19f6afb83e56220c752"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "e1a0041b1016f15dd923a6d97723633b5ba10afbaea8d895ac10da395ccbcb95"
+    sha256 = "9a6c536ea7f82f704caa0af3e71982ce777c2e1f462de2037840d45fd402a7a2"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.aarch64-linux-gnu.tar.gz"
 [[Tk]]
 arch = "aarch64"
-git-tree-sha1 = "31677590a882aadda5521ff7a5b414dffeea6b60"
+git-tree-sha1 = "985f417406900dee0dd507d5dc09720c1db3c80a"
 libc = "musl"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "bc44ada06908bca63ca4f48c61b353b52baffa54bdf1ad1a0abcea90ae8ac28b"
+    sha256 = "6e6f1983a464ea3858aa83a3f28982bb9a78dc5305b5c9e2afcaf176e7ce55b1"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.aarch64-linux-musl.tar.gz"
 [[Tk]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "f3d5c0835be3529b17764a4c4c63861d62697571"
+git-tree-sha1 = "3b54acd52f960b4c7601638f53743ec03d0da898"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "f7a5aaea1a6bf8fe8a89bad5ea935a4e32f66a3577b040d08fe93135a31ebdfe"
+    sha256 = "8396bbf083b53399c58ed911e0ce040a2fecd6fc152e4d3a796f9dbef645f9a6"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.armv6l-linux-gnueabihf.tar.gz"
 [[Tk]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "30578a5be2e9e704a7a968d9d42f61b7bffc0d94"
+git-tree-sha1 = "d35a4a229bd36cba8c0f95f63ff300c89a70f6ca"
 libc = "musl"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "49913920faa74735f13d00b2886eea6bb0056f63330c7352265528f150c06615"
+    sha256 = "16008367c68c2b84c3917094b88a5c1ed291c4220e765539461f4abd5d43f0f0"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.armv6l-linux-musleabihf.tar.gz"
 [[Tk]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "f45607528b4afd8240ad5dbaa841f8759fcf6c01"
+git-tree-sha1 = "25608033247ab7a2a88ddb67c38d6b48d85ccfd3"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "672593af56974ac4b79ea8e718ace9d1b79ccad5e0e03435b7f0fea80bfe4c16"
+    sha256 = "2d0b99941eb93d43477c916fbcc991e25483538803b07294f3deaae315d88717"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.armv7l-linux-gnueabihf.tar.gz"
 [[Tk]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2668eb7fe8bb5df1d6d24cb06876d20e392ab442"
+git-tree-sha1 = "6b880b61a921772a74b8c4f05f13f6eb3ce50d7e"
 libc = "musl"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "39bd44673eeb2b027fae2fe7ff4e257b32cb5827a4451c80d38ae928340893c0"
+    sha256 = "48f1ae8394b33e488a263c5820cdeb2cfc420a9d6f4f41dd9c3e4b63900d3620"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.armv7l-linux-musleabihf.tar.gz"
 [[Tk]]
 arch = "i686"
-git-tree-sha1 = "550778201a1ac5dc5f54ac4070c173852593b9b8"
+git-tree-sha1 = "6b14d8b1aab5f4090904ef0ac9004de0817e6cc9"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "e1014d11da4ed233a1e10d8cbac0459a26cdc6e56b57ef104fb7f5a563f1a363"
+    sha256 = "f2bd902200bc66177ca459d34ad9ada43da338b6f001f4d0261d360d7738a0ed"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.i686-linux-gnu.tar.gz"
 [[Tk]]
 arch = "i686"
-git-tree-sha1 = "ebfc1a084d14b51412e346c6287b57e9c1d15b89"
+git-tree-sha1 = "bb00ffc619287f666c1fca8ebc2a47f7b57aa75e"
 libc = "musl"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "19602e290335866152bd8fb1848571ff4393732b98a65fae516a809f2413f7be"
+    sha256 = "505377f849c6ca72975c4ceeeb5c547c157ee577d3f796f7bc17772926b74b7f"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.i686-linux-musl.tar.gz"
 [[Tk]]
 arch = "i686"
-git-tree-sha1 = "108c28b131d6c48cd0838364278d01b10745e41c"
+git-tree-sha1 = "eea1d8b431fa90a853d78c56eb442a5c8ebe4169"
 os = "windows"
 
     [[Tk.download]]
-    sha256 = "09d6b571cc166101756aa79d124fa7ddbbdbb2a3e146b55cdee47d2ae682029d"
+    sha256 = "db2f09365d3ee2c149d7b31f8116d4d7fc53ecf5449239dfb405518afc5327f6"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.i686-w64-mingw32.tar.gz"
 [[Tk]]
 arch = "powerpc64le"
-git-tree-sha1 = "79136b12988127b15a3f01fef7ec9da1e11e1795"
+git-tree-sha1 = "b9688b0ed17f53dcdf01659af55e08bb0e7ff57c"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "871502b51b9a7a74aef7e3e571b4a92f31301c4038461b8cf6de5ce1e0cc1893"
+    sha256 = "12469e39dacfd6c1a080270ed86d4048647bd3d350e9825b60fd2c36681eeeea"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.powerpc64le-linux-gnu.tar.gz"
 [[Tk]]
 arch = "x86_64"
-git-tree-sha1 = "6511a37de44ecf8929fe4b743bcf2b980d55e91e"
+git-tree-sha1 = "c71916f12fbb0355ef37197e1b8b44545175c865"
 os = "macos"
 
     [[Tk.download]]
-    sha256 = "f046bb86be132c6cbefa433be5f9e711502c55fad725d98dc941cdeedbf1f7bc"
+    sha256 = "965c1cb9bbe138040fe6d3fc07bdeaa80e2f625cdfe1a367d1018f68c614aa2f"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.x86_64-apple-darwin.tar.gz"
 [[Tk]]
 arch = "x86_64"
-git-tree-sha1 = "1802bfa0d1a510bca389086b28656c75038fce19"
+git-tree-sha1 = "afdcbe20915c003e9d73d0a10234ee7a6772201d"
 libc = "glibc"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "e9035572306e2825768aedd28956d5a710a93d76b9923d95cc1a121e3e2018a3"
+    sha256 = "6b41bcc4c9410b7ecb6e870fe00e8ea91c1fd7a6d4b52af8fefd5b57e355f719"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.x86_64-linux-gnu.tar.gz"
 [[Tk]]
 arch = "x86_64"
-git-tree-sha1 = "83836f12742539bf5f7d6b18293ec9711b317f27"
+git-tree-sha1 = "fedee4926aa826e477cd080efc037953ddc145da"
 libc = "musl"
 os = "linux"
 
     [[Tk.download]]
-    sha256 = "a28747ad2d06618579a167d4ceac46e2c2ac66309949fd4cf817eefc330a9fbb"
+    sha256 = "a4717b1cb0400b8ab4c8fc9e9c81cd2b780ddf3017e164387b9833a43613b1ea"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.x86_64-linux-musl.tar.gz"
 [[Tk]]
 arch = "x86_64"
-git-tree-sha1 = "2ed38eb4e6b5af7136e18d8001530e9001c7d92e"
+git-tree-sha1 = "bcfb9abc8f4c1d8eee9e9a8d221a9d1fab0c1686"
 os = "freebsd"
 
     [[Tk.download]]
-    sha256 = "dd32e717012260ed53a34df318585eb7f5948c52f92dd5641dc7489a724127a7"
+    sha256 = "1de1c7738621a1daab863e57e3f3e225cbdc57517c3dc0d11dbfbedad38c14e0"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.x86_64-unknown-freebsd.tar.gz"
 [[Tk]]
 arch = "x86_64"
-git-tree-sha1 = "798dd149113ec181fb631aad5ef54e5965915832"
+git-tree-sha1 = "22f015ae22885a09563b794c7639be56d9ccf13a"
 os = "windows"
 
     [[Tk.download]]
-    sha256 = "a7c389af13fde07166c8f1ddeb712c27ad7be0042fd78014540094b1d73b8c16"
+    sha256 = "013f2ec9b0974f6ae0cb8bc4fa2d4428f0e563ecd5041c2c5a3dced06389bf16"
     url = "https://github.com/JuliaBinaryWrappers/Tk_jll.jl/releases/download/Tk-v8.6.12+0/Tk.v8.6.12.x86_64-w64-mingw32.tar.gz"
