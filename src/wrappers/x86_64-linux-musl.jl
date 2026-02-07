@@ -2,21 +2,23 @@
 export libtk, wish
 
 using Tcl_jll
+using Xorg_libXext_jll
 using Xorg_libXft_jll
+using Xorg_libXScrnSaver_jll
 JLLWrappers.@generate_wrapper_header("Tk")
-JLLWrappers.@declare_library_product(libtk, "libtk8.6.so")
+JLLWrappers.@declare_library_product(libtk, "libtcl9tk9.0.so")
 JLLWrappers.@declare_executable_product(wish)
 function __init__()
-    JLLWrappers.@generate_init_header(Tcl_jll, Xorg_libXft_jll)
+    JLLWrappers.@generate_init_header(Tcl_jll, Xorg_libXext_jll, Xorg_libXft_jll, Xorg_libXScrnSaver_jll)
     JLLWrappers.@init_library_product(
         libtk,
-        "lib/libtk8.6.so",
+        "lib/libtcl9tk9.0.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         wish,
-        "bin/wish8.6",
+        "bin/wish9.0",
     )
 
     JLLWrappers.@generate_init_footer()

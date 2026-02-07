@@ -3,19 +3,19 @@ export libtk, wish
 
 using Tcl_jll
 JLLWrappers.@generate_wrapper_header("Tk")
-JLLWrappers.@declare_library_product(libtk, "@rpath/libtk8.6.dylib")
+JLLWrappers.@declare_library_product(libtk, "@rpath/libtcl9tk9.0.dylib")
 JLLWrappers.@declare_executable_product(wish)
 function __init__()
     JLLWrappers.@generate_init_header(Tcl_jll)
     JLLWrappers.@init_library_product(
         libtk,
-        "lib/libtk8.6.dylib",
+        "lib/libtcl9tk9.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         wish,
-        "bin/wish8.6",
+        "bin/wish9.0",
     )
 
     JLLWrappers.@generate_init_footer()

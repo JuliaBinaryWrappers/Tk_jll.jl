@@ -3,19 +3,19 @@ export libtk, wish
 
 using Tcl_jll
 JLLWrappers.@generate_wrapper_header("Tk")
-JLLWrappers.@declare_library_product(libtk, "tk86.dll")
+JLLWrappers.@declare_library_product(libtk, "tcl9tk90.dll")
 JLLWrappers.@declare_executable_product(wish)
 function __init__()
     JLLWrappers.@generate_init_header(Tcl_jll)
     JLLWrappers.@init_library_product(
         libtk,
-        "bin\\tk86.dll",
+        "bin\\tcl9tk90.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         wish,
-        "bin\\wish86.exe",
+        "bin\\wish90.exe",
     )
 
     JLLWrappers.@generate_init_footer()

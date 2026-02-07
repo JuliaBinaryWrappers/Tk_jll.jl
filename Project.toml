@@ -1,17 +1,19 @@
 name = "Tk_jll"
 uuid = "056b5f69-f28f-5060-ad8a-df43647a2b5c"
-version = "8.6.12+1"
+version = "9.0.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Tcl_jll = "9fc9b8dd-f768-5d0d-bb0b-e65961e00eb6"
+Xorg_libXext_jll = "1082639a-0dae-5f34-9b06-72781eeb8cb3"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Xorg_libXScrnSaver_jll = "41e2f9bb-6422-5ff7-a427-aa949331d861"
 Xorg_libXft_jll = "2c808117-e144-5220-80d1-69d4eaa9352c"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
-Tcl_jll = "~8.6.12"
-Libdl = "1"
-Artifacts = "1"
+Tcl_jll = "~9.0.3"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
