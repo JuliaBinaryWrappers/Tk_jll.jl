@@ -1,6 +1,6 @@
 name = "Tk_jll"
 uuid = "056b5f69-f28f-5060-ad8a-df43647a2b5c"
-version = "9.0.3+1"
+version = "9.0.3+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
